@@ -16,6 +16,12 @@ body{
     box-sizing: border-box;
 }
 
+p{
+    font-family: 'Arial', Times, serif;
+    display: flex;
+
+}
+
 header .container{
     display: flex;
     flex-direction: row;
@@ -40,9 +46,15 @@ header nav a:hover{
     color: #fff;
 }
 
+footer{
+    
+    font-family: 'Arial', Times, serif;
+    color: whitesmoke;
+}
+
 .filme-main{
     font-size: 16px;
-    background: url(./Bootcamps/Projetos/Netflix/img/house_of_card.jpg);
+    background: url(./img/house_of_card.jpg);
 
     height:600px;
     background-size: cover;
@@ -110,3 +122,4 @@ header nav a:hover{
 
 }
 
+ 

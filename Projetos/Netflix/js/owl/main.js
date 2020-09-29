@@ -1,16 +1,16 @@
-$ ( '.owl-carrossel' ) . owlCarousel ( {
-    loop : verdadeiro ,
-    margem : 10 ,
-    nav : true ,
-    responsivo : {
-        0 : {
-            itens : 1
-        } ,
-        600 : {
-            itens : 3
-        } ,
-        1000 : {
-            itens : 5
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
         }
     }
-} )
+})
