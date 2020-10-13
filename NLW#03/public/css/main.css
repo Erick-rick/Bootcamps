@@ -1,4 +1,58 @@
+* {
+    margin:0;
+    padding:0;
+}
 body{
-    color:red;
+ 
+    height: 100vh;
+    color:white;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body, input, button, textarea{
+    /*font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+    font-family: 'Nunito', sans-serif;
+
+    >>Agrupamento*/
+    font: 400 1.8rem/1 'Nunito', sans-serif;
     
+}
+
+#page-landing{
+    background: linear-gradient(329.54deg, #29d6d1 0%, #00c7c7 100%);
+    text-align: center;
+    min-height: 100vh;
+
+    display: flex;
+
+}
+
+#container{
+    margin:auto;
+}
+
+.location, h1, .visit p{
+    height: 16vh;
+
+}
+
+.visit a{
+    width: 8rem;
+    height: 8rem;
+    background:#ffd666;
+
+    border: nome;
+    border-radius: 3rem;
+
+    display:flex;
+    align-items: center;
+    justify-content:center;
+
+    margin:auto;
+
 }
