@@ -24,7 +24,7 @@
 
 .animated-up{
     animation-name: up; 
-    animation-duration:300ms;
+    animation-duration:200ms;
     animation-fill-mode:backwards;
 }
 
