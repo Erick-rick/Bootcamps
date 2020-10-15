@@ -12,8 +12,23 @@
     }
 }
 
+@keyframes right{
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0);
+    }
+
+}
+
 .animated-up{
     animation-name: up; 
     animation-duration:300ms;
     animation-fill-mode:backwards;
+}
+
+.animated-right{
+    animation-name: right;
+    animation-duration: 200s;
 }
